@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Responsive Padding For all Page*/
+.responsive {
+    @apply ml-2 mr-2 mb-3 sm:ml-5 sm:mr-5 md:ml-24 md:mr-24;
+}
+
+/*Nav Link Css*/
+.navLink {
+    @apply hover:text-orange-400 mr-1 sm:mr-2 md:mr-10;
+}
+
+/*Smll Text*/
+.smallText {
+    @apply text-orange-500 border border-orange-500 bg-orange-200;
+}
+/*Button Casscading*/
+.buttonCss {
+    @apply p-2 rounded-sm border-2 border-orange-400;
+}
+.buttonShape {/*Button Arrow Inside*/
+    @apply text-orange-400 rounded-full bg-white p-1 pt-0;
+}
+
+/*Form Buttons*/
+.formButtons {
+        @apply cursor-pointer text-black p-2 px-6 lg:p-4 lg:px-12 bg-slate-200;
+}
+/*Form Texts*/
+.formText {
+        @apply bg-slate-200 p-3 px-7 ml-10 mb-3 lg:text-3xl;
+}
+
+/*Card Css Section 4*/
+.cardCss {
+    @apply bg-slate-100 shadow-lg;
+}
+/*Section 4 Vertical Margin*/
+.veticalMargin {
+    @apply mt-3 sm:mt-6 md:mt-10;
+}
+
+/*Fotter Cards*/
+.footerCards {
+    @apply ml-1 rounded-sm border border-white hover:text-orange-400;
+}
