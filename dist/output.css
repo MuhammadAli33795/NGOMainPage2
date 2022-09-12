@@ -631,6 +631,10 @@ video {
   display: flex;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-max {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -643,16 +647,6 @@ video {
 
 .w-72 {
   width: 18rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.min-w-min {
-  min-width: -webkit-min-content;
-  min-width: -moz-min-content;
-  min-width: min-content;
 }
 
 .max-w-md {

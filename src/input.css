@@ -46,3 +46,8 @@
 .footerCards {
     @apply ml-1 rounded-sm border border-white hover:text-orange-400;
 }
+
+/*Top Bottum Margins*/
+.tbMargin {
+@apply my-3 ;
+}
